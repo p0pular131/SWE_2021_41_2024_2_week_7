@@ -10,6 +10,3 @@ def twoSum(nums: List[int], target: int) -> List[int] :
                 num2 = nums[j]
                 if num1 + num2 == target :
                     return [i, j]
-
-if __name__ == "__main__" :
-    print(twoSum([3,3], 6))
